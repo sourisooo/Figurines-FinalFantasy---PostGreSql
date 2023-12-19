@@ -2,7 +2,7 @@
 const pg = require('pg');
 
 // 2. Créer un client
-const client = new pg.Client('postgresql://postgres:js4life@localhost/ofigatelier');
+const client = new pg.Client('postgresql://postgres:random@localhost/ofigatelier');
 
 // 3. Connecter le client
 client.connect();
